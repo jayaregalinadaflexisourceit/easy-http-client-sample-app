@@ -1,0 +1,4 @@
+easy_error_handler:
+    bugsnag_enabled: true
+    verbose: true
+    translation_domain: 'messages'

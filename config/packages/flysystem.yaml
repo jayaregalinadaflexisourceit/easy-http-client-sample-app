@@ -1,0 +1,10 @@
+flysystem:
+    storages:
+        default.storage:
+            adapter: 'local'
+            options:
+                directory: '%kernel.project_dir%/storage/default'
+        public_api.storage:
+            adapter: 'local'
+            options:
+                directory: '%kernel.project_dir%/storage/public-api'
